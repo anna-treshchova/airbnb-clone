@@ -1,0 +1,1 @@
+export { getDestLabel } from './getDestinationLabel';

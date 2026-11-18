@@ -1,0 +1,22 @@
+@use 'fonts';
+@use 'reset';
+@use 'variables';
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  min-width: 320px;
+  font-family: variables.$font-family;
+  background-color: variables.$color-primary-100;
+  color: variables.$color-text;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s step-end, color 600000s step-end;
+  -webkit-text-fill-color: #222222 !important;
+}
+

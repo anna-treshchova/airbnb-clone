@@ -1,0 +1,33 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
+.hotelsSkeleton {
+  margin-top: 40px;
+
+  @include layout($has-passed-threshold: true) {
+    margin-top: 0;
+  }
+
+  @media(min-width: 768px) {
+    margin-top: 20px;
+
+    @include layout($is-hub: false) {
+      margin-top: calc($header-tab-collapsed + 40px);
+    }
+
+    @include layout($has-passed-threshold: true) {
+      margin-top: 0;
+    }
+  }
+
+  @media(min-width: 992px) {
+    @include layout($is-hub: false) {
+      margin-top: calc($header-desk-collapsed + 60px);
+    }
+
+    @include layout($has-passed-threshold: true) {
+      margin-top: 0;
+    }
+  }
+}
+

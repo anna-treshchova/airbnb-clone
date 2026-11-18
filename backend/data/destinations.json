@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dest_1",
+    "label": "New York"
+  },
+  {
+    "id": "dest_2",
+    "label": "Los Angeles"
+  },
+  {
+    "id": "dest_3",
+    "label": "Miami"
+  },
+  {
+    "id": "dest_4",
+    "label": "Las Vegas"
+  },
+  {
+    "id": "dest_5",
+    "label": "San Francisco"
+  },
+  {
+    "id": "dest_6",
+    "label": "Chicago"
+  },
+  {
+    "id": "dest_7",
+    "label": "Washington D.C."
+  },
+  {
+    "id": "dest_8",
+    "label": "Boston"
+  },
+  {
+    "id": "dest_9",
+    "label": "Orlando"
+  },
+  {
+    "id": "dest_10",
+    "label": "Paris"
+  },
+  {
+    "id": "dest_11",
+    "label": "London"
+  },
+  {
+    "id": "dest_12",
+    "label": "Rome"
+  },
+  {
+    "id": "dest_13",
+    "label": "Barcelona"
+  },
+  {
+    "id": "dest_14",
+    "label": "Amsterdam"
+  },
+  {
+    "id": "dest_15",
+    "label": "Berlin"
+  },
+  {
+    "id": "dest_16",
+    "label": "Vienna"
+  },
+  {
+    "id": "dest_17",
+    "label": "Prague"
+  },
+  {
+    "id": "dest_18",
+    "label": "Venice"
+  },
+  {
+    "id": "dest_19",
+    "label": "Athens"
+  },
+  {
+    "id": "dest_20",
+    "label": "Madrid"
+  },
+  {
+    "id": "dest_21",
+    "label": "Lisbon"
+  }
+]

@@ -1,0 +1,8 @@
+.hotel {
+    padding-block: 24px 100px;
+
+    @media(max-width: 767px) {
+        position: relative;
+        padding-top: 0;
+    }
+}

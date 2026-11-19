@@ -28,7 +28,7 @@ export const RangePicker = ({
             placeholder={placeholder}
             size={size}
             format={format}
-
+            inputReadOnly
             disabledDate={disabledDate}
 
             classNames={{

@@ -30,9 +30,9 @@ export const useResizeAnchoring = (
     useEffect(() => {
         if (!items?.length || resizeObserverWindow === 0) return;
 
-        const vh = window.innerHeight;
-        const marginTopResize = Math.round(vh * 0.3);
-        const marginBottomResize = Math.round(marginTopResize + resizeObserverWindow - vh);
+        const dvh = window.visualViewport?.height ?? window.innerHeight;
+        const marginTopResize = Math.round(dvh * 0.3);
+        const marginBottomResize = Math.round(marginTopResize + resizeObserverWindow - dvh);
 
         const resizeObserver = new IntersectionObserver((entries) => {
             const firstEntry = entries.find(entry => entry.isIntersecting);

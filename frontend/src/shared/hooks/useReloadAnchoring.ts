@@ -32,7 +32,7 @@ export const useReloadAnchoring = ({ items, hasTopSlot }: ReloadAnchoringProps) 
               return;
           }
 
-          const vh = window.innerHeight;
+          const dvh = window.visualViewport?.height ?? window.innerHeight;
           const headerHeight = getTransformedHeaderHeight(screen, pageType);
           const reloadAnchors = document.querySelectorAll('[data-reload-anchor]');
 
@@ -42,9 +42,9 @@ export const useReloadAnchoring = ({ items, hasTopSlot }: ReloadAnchoringProps) 
           for (let i = 0; i < reloadAnchors.length; i++) {
               const rect = reloadAnchors[i].getBoundingClientRect();
 
-              if (rect.top > vh) break;
+              if (rect.top > dvh) break;
 
-              if (rect.bottom > headerHeight && rect.top < vh) {
+              if (rect.bottom > headerHeight && rect.top < dvh) {
                   visibleCardsCount++;
 
                   if (firstVisibleCardTop == null) {

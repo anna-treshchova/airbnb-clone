@@ -22,7 +22,7 @@
   border-radius: 32px 32px 0 0;
 
   .overlay[data-animation='entering'] & {
-    animation: slideUp 0.6s cubic-bezier(0.28, 0.68, 0.36, 1) forwards;
+    animation: slideUp 0.3s cubic-bezier(0.28, 0.68, 0.36, 1) forwards;
   }
 }
 
@@ -52,6 +52,9 @@
     width: 480px;
     height: auto;
     border-radius: 32px;
+    .overlay[data-animation='entering'] & {
+      animation: slideUp 0.6s cubic-bezier(0.28, 0.68, 0.36, 1) forwards;
+    }
   }
 
   .content {

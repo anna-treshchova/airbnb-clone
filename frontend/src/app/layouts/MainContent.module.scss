@@ -1,5 +1,5 @@
-@use 'variables' as *;
-@use 'mixins' as *;
+@use '@/shared/styles/variables' as *;
+@use '@/shared/styles/mixins' as *;
 
 .main {
   transform: translate3d(0, 0, 0);

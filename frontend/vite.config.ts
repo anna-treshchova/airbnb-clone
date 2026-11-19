@@ -13,7 +13,7 @@ export default defineConfig({
            filename: 'stats.html',
            gzipSize: true,
            brotliSize: true,
-       })
+       }),
     ].filter(Boolean),
     resolve: {
         alias: {

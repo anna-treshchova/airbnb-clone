@@ -1,5 +1,5 @@
-@use 'mixins' as *;
-@use 'variables' as *;
+@use '@/shared/styles/mixins' as *;
+@use '@/shared/styles/variables' as *;
 
 .hotelsSkeleton {
   margin-top: 40px;

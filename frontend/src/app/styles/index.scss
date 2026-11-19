@@ -1,6 +1,6 @@
 @use 'fonts';
 @use 'reset';
-@use 'variables';
+@use '@/shared/styles/variables' as *;
 
 html, body {
   min-height: 100vh;
@@ -8,9 +8,9 @@ html, body {
 
 body {
   min-width: 320px;
-  font-family: variables.$font-family;
-  background-color: variables.$color-primary-100;
-  color: variables.$color-text;
+  font-family: $font-family;
+  background-color: $color-primary-100;
+  color: $color-text;
 }
 
 input:-webkit-autofill,
@@ -19,4 +19,3 @@ input:-webkit-autofill:focus {
   transition: background-color 600000s step-end, color 600000s step-end;
   -webkit-text-fill-color: #222222 !important;
 }
-
